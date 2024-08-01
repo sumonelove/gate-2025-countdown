@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+    margin: 0;
+    font-family: JetBrains Mono;
+    background-image: url('file.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+    color: rgb(139, 220, 32);
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#countdown div {
+    padding: 25px;
+    background: #00000000;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#countdown span {
+    font-size: 3em;
+    display: block;
+}
